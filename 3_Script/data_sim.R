@@ -1,7 +1,7 @@
 
 library(tidyverse)
 library(faux)
-
+set.seed(123)
 Distractor_sim <- sim_design(
   n = 50, # 50 subjects
   #contain two factor
@@ -138,9 +138,9 @@ all %>%
   ggplot(aes(x = Type,
              y = mean, 
              ymin = lower,
-             ymax = upper)) +
+             ymax = upper, fill=Type)) +
   geom_col(width = .5, position = position_dodge(.6)) +
-  geom_errorbar(width = .15, position = position_dodge(.6)) +
+  geom_errorbar(width = .1, position = position_dodge(.6)) +
   scale_fill_manual(values = c("#737373")) +  xlab("Distractor type") +
   ylab("Reaction time(ms)") + 
   theme(
@@ -164,5 +164,6 @@ all %>%
     legend.key = element_rect(color = NA, fill = NA)
   ) + 
   scale_y_continuous(expand = c(0,0)) +
-  papaja::theme_apa()
+  papaja::theme_apa() + 
+  ggsci::scale_fill_npg()
 ggsave("exp1.png", width = 8, height = 7, dpi = 300)
