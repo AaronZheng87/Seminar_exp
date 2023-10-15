@@ -164,6 +164,6 @@ all %>%
     legend.key = element_rect(color = NA, fill = NA)
   ) + 
   scale_y_continuous(expand = c(0,0)) +
-  papaja::theme_apa() + 
-  ggsci::scale_fill_npg()
+  ggsci::scale_fill_npg() + 
+  papaja::theme_apa() 
 ggsave("exp1.png", width = 8, height = 7, dpi = 300)
