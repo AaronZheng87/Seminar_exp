@@ -42,6 +42,7 @@ Non_distractor <- sim_design(
 
 
 all <- rbind(Distractor_sim, Non_distractor)
+write_csv(all, "simulation.csv")
 data_summary <- function(x) {
   m <- mean(x)
   ymin <- m-sd(x)
