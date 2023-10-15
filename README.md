@@ -1,7 +1,7 @@
 # Seminar_exp
 This is the repo for assignment of seminar experimental psychology in VU
 
-The repo contains the research proposal, data simulation, figures(expected results). All of them were created independently by Yuanrui Zheng(Aaron). The repo is for the use of Yuanrui Zheng only!.
+The repo contains the research proposal, data simulation, figures(expected results). All of them were created independently by **Yuanrui Zheng(Aaron). The repo is for the use of Yuanrui Zheng only!!!**
 
 The data simulation function refered to [Lisa DeBruine's R package](https://debruine.github.io/faux/articles/sim_mixed.html)
 
