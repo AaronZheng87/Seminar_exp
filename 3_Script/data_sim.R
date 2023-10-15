@@ -121,7 +121,7 @@ ggplot(plot_dat) +
   papaja::theme_apa()
 
 ggsave("exp2.png", width = 8, height = 7, dpi = 300)
-
+getwd()
 
 
 
