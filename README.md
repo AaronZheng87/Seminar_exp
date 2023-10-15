@@ -11,4 +11,9 @@ The data simulation function refered to [Lisa DeBruine's R package](https://debr
   - ggplot2---3.4.1
 
 The expected results of experiment 1:
+- 
 ![Expected result for exp1](https://github.com/AaronZheng87/Seminar_exp/blob/main/4_Figures/exp1.png)
+
+The expected results of experiment 2:
+- 
+![Expected result for exp1](https://github.com/AaronZheng87/Seminar_exp/blob/main/4_Figures/exp2.png)
