@@ -113,7 +113,7 @@ ggplot(plot_dat) +
                     values = c("Self" = "#E64B35B2", 
                                "Other" = "#4DBBD5B2", 
                                "Neutral" = "#00A087B2", 
-                               "None" = "#7E6148B2"), 
+                               "None" = "#3C5488B2"), 
                     breaks = c("Self", "Other", "Neutral", "None")) + 
   scale_x_continuous(breaks=c(1,4,6.5), labels=c("High-probability", "Low-probability", "No distractor"), limits=c(0, 7)) + 
   xlab("Distractor position") +
