@@ -140,7 +140,7 @@ all %>%
              ymin = lower,
              ymax = upper)) +
   geom_col(width = .5, position = position_dodge(.6)) +
-  geom_errorbar(width = .1, position = position_dodge(.6)) +
+  geom_errorbar(width = .15, position = position_dodge(.6)) +
   scale_fill_manual(values = c("#737373")) +  xlab("Distractor type") +
   ylab("Reaction time(ms)") + 
   theme(
