@@ -10,7 +10,12 @@ The data simulation function refered to [Lisa DeBruine's R package](https://debr
   - tidyverse---2.0.0
   - ggplot2---3.4.1
 
+The procedure:
+
+![procedure](https://github.com/AaronZheng87/Seminar_exp/blob/main/4_Figures/paradigm.png)
+
 The expected results of experiment 1:
+
 - 
 ![Expected result for exp1](https://github.com/AaronZheng87/Seminar_exp/blob/main/4_Figures/exp1.png)
 
